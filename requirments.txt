@@ -1,0 +1,33 @@
+# Core Libraries
+pandas==2.2.2
+numpy==1.26.4
+
+# Visualization
+matplotlib==3.8.4
+seaborn==0.13.2
+
+# Modeling & ML
+scikit-learn==1.5.0
+xgboost==2.0.3
+imbalanced-learn==0.12.2
+
+# Encoding
+category_encoders==2.6.3
+scikit-woe==0.3.5
+
+# Explainability
+shap==0.45.0
+
+# API
+fastapi==0.111.0
+uvicorn==0.30.1
+
+# Testing
+pytest==8.2.1
+
+# Notebook Support
+jupyterlab==4.1.6
+ipykernel==6.29.4
+
+# Typing (for pydantic models, optional)
+pydantic==2.7.1

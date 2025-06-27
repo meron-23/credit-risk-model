@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+.env
+.venv/
+env/
+venv/
+*.egg-info/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
+
+# Logs and cache
+*.log
+*.cache
+*.pkl
+*.joblib
+*.sav
+
+# Data folders (raw and processed)
+data/
+!data/.gitkeep  # keep empty folder structure if needed
+
+# Docker-related
+*.pid
+docker-compose.override.yml
+
+# Ignore notebooks if you want clean commits
+# Uncomment the next line if needed
+# *.ipynb
+
+# Ignore large archive files
+*.zip
+*.tar.gz
+*.tar
+*.rar
