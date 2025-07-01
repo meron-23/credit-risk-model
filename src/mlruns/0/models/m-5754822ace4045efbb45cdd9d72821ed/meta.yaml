@@ -1,0 +1,10 @@
+artifact_location: file:///c:/Users/user/Desktop/credit-risk-model/src/mlruns/0/models/m-5754822ace4045efbb45cdd9d72821ed/artifacts
+creation_timestamp: 1751404998712
+experiment_id: '0'
+last_updated_timestamp: 1751405003475
+model_id: m-5754822ace4045efbb45cdd9d72821ed
+model_type: null
+name: GradientBoosting
+source_run_id: c2806e4a3c044fa8b04ca94f99ff68f6
+status: 2
+status_message: null

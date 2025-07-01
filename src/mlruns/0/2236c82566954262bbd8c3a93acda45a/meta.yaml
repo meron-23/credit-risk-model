@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/user/Desktop/credit-risk-model/src/mlruns/0/2236c82566954262bbd8c3a93acda45a/artifacts
+end_time: 1751399942477
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2236c82566954262bbd8c3a93acda45a
+run_name: AdaBoost
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751399563559
+status: 3
+tags: []
+user_id: user

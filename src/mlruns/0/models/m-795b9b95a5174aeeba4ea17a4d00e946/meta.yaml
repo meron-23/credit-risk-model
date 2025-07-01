@@ -1,0 +1,10 @@
+artifact_location: file:///c:/Users/user/Desktop/credit-risk-model/src/mlruns/0/models/m-795b9b95a5174aeeba4ea17a4d00e946/artifacts
+creation_timestamp: 1751403672203
+experiment_id: '0'
+last_updated_timestamp: 1751403682079
+model_id: m-795b9b95a5174aeeba4ea17a4d00e946
+model_type: null
+name: LogisticRegression
+source_run_id: 4aa9292a9bcb4aefbda8d49cdbff6c95
+status: 2
+status_message: null

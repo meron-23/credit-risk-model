@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/user/Desktop/credit-risk-model/src/mlruns/0/edc2499c33994bf29fb8c3ac97bf5dae/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: edc2499c33994bf29fb8c3ac97bf5dae
+run_name: SVC
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751400115980
+status: 1
+tags: []
+user_id: user
