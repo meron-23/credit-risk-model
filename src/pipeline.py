@@ -1,7 +1,7 @@
 from sklearn.pipeline import Pipeline
 from feature_engineering import (
     AggregateFeatures,
-    ExtractDateTimeFeatures,
+    CyclicalDateTimeFeatures,
     EncodeCategorical,
     HandleMissingValues,
     NormalizeFeatures
@@ -10,11 +10,14 @@ from feature_engineering import (
 def create_pipeline():
     return Pipeline(steps=[
         ('aggregate', AggregateFeatures(groupby_col='AccountId')),
-        ('datetime', ExtractDateTimeFeatures(time_col='TransactionStartTime')),
+        ('datetime', CyclicalDateTimeFeatures(time_col='TransactionStartTime')),
         ('categorical', EncodeCategorical(categorical_cols=[
-            'CurrencyCode', 'CountryCode', 'ProviderId', 'ProductId',
+            'ProviderId', 'ProductId',
             'ProductCategory', 'ChannelId', 'PricingStrategy'
         ])),
         ('missing', HandleMissingValues(strategy='mean')),
-        ('normalize', NormalizeFeatures(method='standard')),
+        ('normalize', NormalizeFeatures(
+            method='standard',
+            exclude_columns=['hour_sin', 'hour_cos', 'day_sin', 'day_cos', 'month_sin', 'month_cos']
+        )),
     ])
