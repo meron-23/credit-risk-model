@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/user/Desktop/credit-risk-model/src/mlruns/0/0be2b9d3607f439690c2adc38c683db1/artifacts
+end_time: 1751406083349
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0be2b9d3607f439690c2adc38c683db1
+run_name: GradientBoosting
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751405387154
+status: 3
+tags: []
+user_id: user

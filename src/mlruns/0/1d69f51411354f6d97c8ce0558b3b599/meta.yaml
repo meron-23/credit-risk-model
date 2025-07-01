@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/user/Desktop/credit-risk-model/src/mlruns/0/1d69f51411354f6d97c8ce0558b3b599/artifacts
+end_time: 1751407837021
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1d69f51411354f6d97c8ce0558b3b599
+run_name: RandomForestClassifier
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751407675350
+status: 3
+tags: []
+user_id: user

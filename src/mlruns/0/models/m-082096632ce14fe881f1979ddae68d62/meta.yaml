@@ -1,0 +1,10 @@
+artifact_location: file:///c:/Users/user/Desktop/credit-risk-model/src/mlruns/0/models/m-082096632ce14fe881f1979ddae68d62/artifacts
+creation_timestamp: 1751408687503
+experiment_id: '0'
+last_updated_timestamp: 1751408696510
+model_id: m-082096632ce14fe881f1979ddae68d62
+model_type: null
+name: XGBoost
+source_run_id: e9924b0e49ae401f8742c26d4f4ddae8
+status: 2
+status_message: null

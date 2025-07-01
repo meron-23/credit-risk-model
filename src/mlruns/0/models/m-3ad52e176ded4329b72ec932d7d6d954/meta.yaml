@@ -1,0 +1,10 @@
+artifact_location: file:///c:/Users/user/Desktop/credit-risk-model/src/mlruns/0/models/m-3ad52e176ded4329b72ec932d7d6d954/artifacts
+creation_timestamp: 1751406160424
+experiment_id: '0'
+last_updated_timestamp: 1751406169864
+model_id: m-3ad52e176ded4329b72ec932d7d6d954
+model_type: null
+name: AdaBoost
+source_run_id: 9b9fbe0585e6413887370365716b1c7a
+status: 2
+status_message: null

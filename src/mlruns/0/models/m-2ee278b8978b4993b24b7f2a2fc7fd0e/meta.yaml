@@ -1,0 +1,10 @@
+artifact_location: file:///c:/Users/user/Desktop/credit-risk-model/src/mlruns/0/models/m-2ee278b8978b4993b24b7f2a2fc7fd0e/artifacts
+creation_timestamp: 1751405376437
+experiment_id: '0'
+last_updated_timestamp: 1751405387050
+model_id: m-2ee278b8978b4993b24b7f2a2fc7fd0e
+model_type: null
+name: RandomForestClassifier
+source_run_id: 00687c7c6cbb4f5e8aac6affb48a9ce6
+status: 2
+status_message: null
